@@ -19,7 +19,7 @@ font-family: 'Rokkitt', serif;
 .header {
     display: flex;
     align-items: center;
-    padding: 35px 120px;
+    padding: 20px 120px;
     font-family: 'Rokkitt', serif;
     font-size: 17.5px; 
     font-weight: 700;
@@ -61,3 +61,61 @@ font-family: 'Rokkitt', serif;
     padding: 12px 40px; 
     font-weight: 700;
 }
+
+.main-section{
+    position: relative;
+    background-color: #E0F3E0;
+    height: 800px;
+}
+
+.icons-animals{
+    width: 323.58px;
+    height: 323.58px;
+}
+.img-pug{
+    position: absolute;
+    left: 566.26px;
+}
+
+.img-cat{
+    position: absolute;
+    left: 133.99px;
+    top: 200px; 
+}
+
+.img-dog{
+    position: absolute; 
+    left: 681.55px;
+    top: 450px;
+}
+
+.main-buttom{
+    position: absolute; 
+    left: 358.97px;
+    top: 650px;
+    width: 255.32px;
+    height: 65.73px;
+    background: #AB659C;
+    border-radius: 159.127px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24.215px;
+    line-height: 29px;
+    color: white;
+    border: transparent;
+    box-shadow: 3px 6px 1px 0px black;  
+}
+
+.main-buttom:hover{
+    cursor: pointer;
+}
+
+.main-buttom.-rectangle{
+    left: 357px;
+    top: 645px;
+    background: #FFAF56;
+    width: 255.32px;
+    height: 65.73px;
+}
+
+
