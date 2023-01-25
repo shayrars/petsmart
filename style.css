@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700;6..96,800&family=Reem+Kufi+Ink&family=Reem+Kufi:wght@700&family=Righteous&family=Rokkitt:wght@300&display=swap');
+
+/* 
+font-family: 'Bodoni Moda', serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Reem Kufi Ink', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Rokkitt', serif; 
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 35px 120px;
+    font-family: 'Rokkitt', serif;
+    font-size: 17.5px; 
+    font-weight: 700;
+    background-color: #E0F3E0;
+    justify-content: space-between;
+}
+
+.header-image{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navigation-item{
+    color: black;
+    padding-right: 35px;
+}
+
+.header-buttom{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-buttom:hover{
+    cursor: pointer;
+}
+
+.header-login{
+    color: black;
+    font-weight: 700;
+}
+
+.header-sign{
+    background-color: #FFAF56;
+    height: 48px;
+    width: 150px;
+    border-radius: 116.285px;
+    padding: 12px 40px; 
+    font-weight: 700;
+}
